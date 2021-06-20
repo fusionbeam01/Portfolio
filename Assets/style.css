@@ -65,3 +65,20 @@ nav a:hover{
     background-size: 100% 100%;
     color: var(--blue);
 }
+
+.hero-banner{
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./images/hero_banner_faq.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section div h2 {
+    display: flex;
+    align-items: baseline;
+    background-color: var(--teal);
+    padding: 5px 1% 6px 2%;
+    justify-content: flex-end;
+}
