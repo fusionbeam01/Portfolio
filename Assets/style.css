@@ -73,12 +73,13 @@ nav a:hover{
     background-image: url(./images/hero_banner_faq.jpg);
     background-size: cover;
     background-position: center;
+    display: flex;
 }
 
 section div h2 {
     display: flex;
-    align-items: baseline;
+    align-content: flex-end;
     background-color: var(--teal);
     padding: 5px 1% 6px 2%;
-    justify-content: flex-end;
+    justify-content:right;
 }
