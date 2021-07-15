@@ -88,12 +88,13 @@ section div h2 {
 
 .body {
     display: flex;
-    flex-direction: row;
-    color: var(--textcolor);
-    justify-content:flex-start;
+    flex: 1 1 100%;
+    background-color: var(--textcolor);
+    padding:5% 5%;
 }
 
 .body h2 {
-    border:  2px bold var(--teal);
-    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 20%;
 }
